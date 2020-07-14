@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "h1light",
+  "version": "1.0",
+
+  "description": "Adds flags to Headings for SEO spot-checks.",
+  "homepage_url": "https://github.com/knightspore",
+
+  "icons": {
+    "48": "icons/h1light-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["h1light.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/h1light-48.png",
+    "default_title": "h1light",
+    "default_popup": "button.html"
+  },
+
+  "browser_specific_settings": {
+  "gecko": {
+    "id": "hello@parabyl.co.za"
+  }
+}
+
+}

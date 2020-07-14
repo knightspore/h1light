@@ -4,7 +4,7 @@ var elHTML;
 var col;
 var el;
 
-function addPrefix () {
+function addPrefix() {
     heading.forEach(function(hX) {
 
         el = hX.nodeName;

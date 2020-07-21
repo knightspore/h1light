@@ -1,4 +1,4 @@
-# h1light SEO Spot-Check Assitant
+# h1light SEO Spot-Check Assistant
 
 h1light (pronounced: highlight) is a simple Firefox extension created for assisting SEO spot checks. 
 

@@ -5,6 +5,7 @@
   "version": "1.0",
 
   "description": "Adds flags to Headings for SEO spot-checks.",
+  "homepage_url": "https://github.com/knightspore",
 
   "icons": {
     "48": "icons/h1light-48.png"
@@ -17,10 +18,15 @@
     }
   ],
 
+  "browser_action": {
+    "default_icon": "icons/h1light-48.png",
+    "default_title": "h1light"
+  },
+
   "browser_specific_settings": {
   "gecko": {
-    "id": "cslemon96@gmail.com"
-    }
+    "id": "hello@parabyl.co.za"
+  }
 }
 
-}
+} 

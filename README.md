@@ -18,7 +18,7 @@ Click 'This Firefox' on the left.
 
 Select 'Load Temporary Add-on...'
 
-Select any of the included files in ```/h1light-src.```
+Select any of the included files in ```/h1light-src```.
 
 You should now be running the plugin in debug mode. Reload to view new changes you've made to the plugin, and click 'Remove' when you're done with the plugin. 
 
@@ -29,7 +29,7 @@ about:addons
 
 ## Packaging
 
-To package the plugin, first navigate to the ```h1light-src``` directory. 
+To package the plugin, first navigate to the ```/h1light-src``` directory. 
 
 Run the following command:
 
@@ -42,5 +42,7 @@ You will now have a new packaged version of the plugin in the ```/dist``` folder
 ## To-Do
 
 ☐ Add Toggle Button
+
 ☐ Only Activate plugin when prompted
+
 ☐ Only Activate plugin in the current tab
